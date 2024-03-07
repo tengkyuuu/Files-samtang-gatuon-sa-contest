@@ -1,5 +1,5 @@
 #include <iostream>
-#include <algorithm> // for std::swap
+#include <algorithm>
 
 using namespace std;
 
@@ -68,6 +68,4 @@ int main() {
     cout << "\nRotate 90 degrees Counterclockwise:" << endl;
     rotateCounterclockwise(matrix, n);
     printMatrix(matrix, n);
-
-    return 0;
 }
